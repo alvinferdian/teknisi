@@ -1,0 +1,93 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f9fb;
+    color: #0f3850;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    background: linear-gradient(90deg, #0b7fa6, #00c2d1);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eef8fb;
+    border-top: 1px solid #d1d1d1;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.table th {
+    background-color: #00c2d1;
+    color: white;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #0b7fa6;
+    color: white;
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    border: 1px solid #0b7fa6;
+    color: #0b7fa6;
+}
+
+.btn-outline-danger {
+    background-color: transparent;
+    border: 1px solid #dc3545;
+    color: #dc3545;
+}
+
+.avatar-placeholder {
+    width: 56px;
+    height: 56px;
+    display: inline-grid;
+    place-items: center;
+    background: linear-gradient(180deg, #fff, #f7fbfc);
+    color: #6c757d;
+    border-radius: 12px;
+}
+
+.badge-role {
+    background: linear-gradient(90deg, #00c2d1, #9ff0ec);
+    color: #04535a;
+    padding: 0.35rem 0.6rem;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .header, .footer {
+        text-align: center;
+    }
+}
